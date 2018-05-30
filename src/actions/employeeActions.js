@@ -7,7 +7,7 @@ import {
 
 
 
-export const EmployeeUpdate = ({prop, value}) =>{
+export const employeeUpdate = ({prop, value}) =>{
   return {
     type:EMPLOYEE_UPDATE,
     payload:{ prop, value }

@@ -12,7 +12,7 @@ export default (state = INITIAL_STATE , action) =>{
   switch(action.type){
 
     case EMPLOYEE_UPDATE:
-      return { ..state, [action.payload.prop]: actoin.payload.value }
+      return { ...state, [action.payload.prop]: action.payload.value }
 
 
     default:
