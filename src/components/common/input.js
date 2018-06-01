@@ -20,7 +20,7 @@ const Input = ({label, value, onChangeText, placeHolder, secureTextEntry }) => {
         secureTextEntry={secureTextEntry}
         autoCorrect={false}
         placeHolder={placeHolder}
-        // value={value}
+        value={value}
         onChangeText={onChangeText}
         style={inputStyle}
       />
